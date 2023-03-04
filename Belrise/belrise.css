@@ -1,0 +1,177 @@
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    background-color: rgb(141, 215, 224);
+    background: fixed;
+ }
+ body{
+     padding-top: 2%;
+     
+    
+
+     background-repeat:no-repeat;
+ }
+
+ #myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+ }
+ 
+   
+ 
+ nav{
+     
+     display: flex;
+ background-color:white;
+ 
+     border: solid  rgb(173, 74, 74);  
+     margin-left: 200px;
+     margin-right: 200px;
+     text-align: center;
+     align-content: center;
+     border-radius: 10px;
+     
+ }
+ 
+ nav img{
+ 
+     padding: 8px;
+ margin-left: 50px;
+     width:170px;
+   
+ }
+ .name{
+     font-weight: bolder;
+     margin-left: 100px;
+     font-size: 38px;
+    text-align: center;
+  
+     padding: 20px;
+    
+     
+ }
+ 
+ .flex-container{
+    
+     background-color: aqua;
+     margin-left: 200px;
+     margin-right: 200px;
+     display: flex; 
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top: 2px ;
+    
+     
+ 
+     
+     }
+     .flex-elements{
+         height: 28px;
+         width: 100px;
+         text-align: center;
+         padding-left: 35px;
+         padding-top: 6px;
+         justify-content: space-around;
+       
+         color: white;
+   
+     
+     }
+     a{
+        border-radius: 2px black solid;
+        
+        height:25px;
+        width: 100px;
+         color:rgb(10, 1, 1);
+         text-decoration: none;
+         font-family: sans-serif;
+         font-weight: bolder;
+         text-align: center;
+        display: block;
+        color: rgb(8, 2, 2);
+        background-color:aqua;
+
+
+     }
+     a.active{
+        background-color: red;
+        color: blue;
+     }
+     a:hover:not(.active){
+       
+        background-color: yellow;
+        color: blue;
+     }
+ hr{
+     border-color: rgb(65, 26, 26);
+     border-style: groove;
+     box-shadow: 10px;
+ }
+ .login{
+    padding-left: 100px;
+     text-align: center;
+     
+     
+ }
+ input{
+     margin-left: 600px;
+     padding-left: 100px;
+     display:flexbox;
+     background-color: rgb(202, 187, 187);
+     width:150px;
+     text-align: center;
+ 
+ }
+ .username{
+   
+     text-align: center;
+     margin-left: -85px;
+     font-weight: bolder;
+     
+ }
+ .passward{
+     text-align: center;
+     margin-left: -75px;
+     padding-left: 5px;
+ }
+ 
